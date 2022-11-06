@@ -2783,7 +2783,6 @@ GameObject:
   - component: {fileID: 544702755}
   - component: {fileID: 544702738}
   - component: {fileID: 544702750}
-  - component: {fileID: 544702753}
   - component: {fileID: 544702754}
   - component: {fileID: 544702752}
   - component: {fileID: 544702751}
@@ -2855,6 +2854,19 @@ GameObject:
   - component: {fileID: 544702821}
   - component: {fileID: 544702820}
   - component: {fileID: 544702825}
+  - component: {fileID: 544702827}
+  - component: {fileID: 544702831}
+  - component: {fileID: 544702830}
+  - component: {fileID: 544702829}
+  - component: {fileID: 544702828}
+  - component: {fileID: 544702826}
+  - component: {fileID: 544702833}
+  - component: {fileID: 544702834}
+  - component: {fileID: 544702832}
+  - component: {fileID: 544702835}
+  - component: {fileID: 544702838}
+  - component: {fileID: 544702837}
+  - component: {fileID: 544702836}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2875,11 +2887,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 447.3119, y: 448.1933}
+  scrollPos: {x: 403.4997, y: 570.76636}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 514
-  zoom: 1
+  blockViewHeight: 465
+  zoom: 0.9100001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2887,7 +2899,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 544702767}
+  - {fileID: 544702707}
   selectedCommands: []
   variables: []
   description: 
@@ -2939,9 +2951,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 55.896805
-    y: -51.059372
-    width: 77
+    x: 59.193504
+    y: -49.960472
+    width: 77.47253
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2988,8 +3000,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: "A little ship is ready to put down its sails to sleep for the night.
-    The parent ships are both next to the ship.\r"
+  storyText: A little ship is ready to put down its sails to sleep for the night.
+    The parents ship next to him begin to speak then hesitated.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3031,7 +3043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: "But why?  I don\u2019t understand"
+  storyText: "But why?  I don\u2019t understand."
   description: 
   character: {fileID: 1802152472}
   portrait: {fileID: 21300000, guid: 2c17b6e3579f25f4a9a2545e87d47073, type: 3}
@@ -3058,7 +3070,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: Because we have been unhappy with each other for a long time
+  storyText: Because we have been unhappy with each other for a long time.
   description: 
   character: {fileID: 1957078591}
   portrait: {fileID: 21300000, guid: 2aec6c199974675408eaf7d9dcf59447, type: 3}
@@ -3145,7 +3157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: Mom and Dad are not getting alone, we need take some time apart
+  storyText: Mom and Dad are not getting alone, we need take some time apart.
   description: 
   character: {fileID: 235874452}
   portrait: {fileID: 21300000, guid: 5ea18242754412242b07e2181e2a5b03, type: 3}
@@ -3199,7 +3211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: We are getting a divorce
+  storyText: We are getting a divorce.
   description: 
   character: {fileID: 1957078591}
   portrait: {fileID: 21300000, guid: 2aec6c199974675408eaf7d9dcf59447, type: 3}
@@ -3226,7 +3238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: Dad and I need to talk to you
+  storyText: Dad and I need to talk to you.
   description: 
   character: {fileID: 235874452}
   portrait: {fileID: 21300000, guid: 5ea18242754412242b07e2181e2a5b03, type: 3}
@@ -3273,7 +3285,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 751.29504
     y: 46.46702
-    width: 124
+    width: 122.527466
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3285,6 +3297,7 @@ MonoBehaviour:
   - {fileID: 544702669}
   - {fileID: 544702672}
   - {fileID: 544702821}
+  - {fileID: 544702836}
   - {fileID: 544702731}
   suppressAllAutoSelections: 0
 --- !u!114 &544702672
@@ -3384,7 +3397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 82
   indentLevel: 0
-  storyText: Even though we are not together, we'll still love you and be your parents
+  storyText: Even though we are not together, we'll still love you and be your .
   description: 
   character: {fileID: 1957078591}
   portrait: {fileID: 21300000, guid: 2aec6c199974675408eaf7d9dcf59447, type: 3}
@@ -3436,8 +3449,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 751.2947
-    y: -30.65237
+    x: 753.2947
+    y: -33.65237
     width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3453,6 +3466,7 @@ MonoBehaviour:
   - {fileID: 544702676}
   - {fileID: 544702804}
   - {fileID: 544702822}
+  - {fileID: 544702837}
   - {fileID: 544702674}
   - {fileID: 544702673}
   suppressAllAutoSelections: 0
@@ -3608,7 +3622,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 604.1867
     y: -88.12766
-    width: 144
+    width: 142.30768
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3699,7 +3713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 68
   indentLevel: 0
-  storyText: Childship scared and starts crying
+  storyText: Childship scared and starts to cry.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3726,7 +3740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: Why it this my fault? You started it
+  storyText: Why it this my fault? You started.
   description: 
   character: {fileID: 1957078591}
   portrait: {fileID: 21300000, guid: 2aec6c199974675408eaf7d9dcf59447, type: 3}
@@ -3753,7 +3767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 66
   indentLevel: 0
-  storyText: It's all your fault
+  storyText: It's all your father's fault.
   description: 
   character: {fileID: 235874452}
   portrait: {fileID: 21300000, guid: 5ea18242754412242b07e2181e2a5b03, type: 3}
@@ -3807,9 +3821,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 803.3375
-    y: -123.815475
-    width: 100
+    x: 817.52405
+    y: -129.30998
+    width: 99.45055
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3826,6 +3840,7 @@ MonoBehaviour:
   - {fileID: 544702807}
   - {fileID: 544702689}
   - {fileID: 544702824}
+  - {fileID: 544702838}
   - {fileID: 544702688}
   - {fileID: 544702687}
   suppressAllAutoSelections: 0
@@ -3938,9 +3953,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 803.03314
-    y: -214.38887
-    width: 212
+    x: 804.132
+    y: -217.6856
+    width: 210.43954
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3987,9 +4002,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 603.61426
+    x: 604.61426
     y: -161.12025
-    width: 190
+    width: 187.36263
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4043,7 +4058,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 456.39307
     y: -56.07188
-    width: 106
+    width: 103.846146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4112,7 +4127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 0
-  storyText: ' Parents start fighting'
+  storyText: ' Parents start to fight and criticize each other.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4139,7 +4154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: You will need to choose who you would like to live with
+  storyText: You will need to choose who you would like to live with.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4292,9 +4307,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 179.81628
-    y: 95.377525
-    width: 71
+    x: 185.31082
+    y: 100.872025
+    width: 69.78022
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4303,12 +4318,18 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 544702831}
+  - {fileID: 544702830}
   - {fileID: 544702744}
-  - {fileID: 544702743}
   - {fileID: 544702790}
+  - {fileID: 544702829}
+  - {fileID: 544702828}
+  - {fileID: 544702743}
+  - {fileID: 544702827}
   - {fileID: 544702742}
   - {fileID: 544702789}
   - {fileID: 544702741}
+  - {fileID: 544702826}
   - {fileID: 544702788}
   - {fileID: 544702772}
   suppressAllAutoSelections: 0
@@ -4345,7 +4366,7 @@ MonoBehaviour:
   itemId: 36
   indentLevel: 0
   storyText: Mom and I are new to this, there are people out there who can help us,
-    let's talk with them
+    let's talk with them.
   description: 
   character: {fileID: 1957078591}
   portrait: {fileID: 21300000, guid: 2aec6c199974675408eaf7d9dcf59447, type: 3}
@@ -4373,7 +4394,7 @@ MonoBehaviour:
   itemId: 35
   indentLevel: 0
   storyText: Honey, We're sure that this is very upsetting for you. We are upset
-    as well. We know it will be difficult, but three of us will find a way
+    as well. We know it will be difficult, but three of us will find a way.
   description: 
   character: {fileID: 235874452}
   portrait: {fileID: 21300000, guid: 5ea18242754412242b07e2181e2a5b03, type: 3}
@@ -4427,9 +4448,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 457.9985
+    x: 459.0974
     y: -116.004036
-    width: 90
+    width: 88.46153
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4507,7 +4528,7 @@ MonoBehaviour:
   itemId: 30
   indentLevel: 0
   storyText: We both love you very much. We will both still spend time with you and
-    take care of you
+    take care of you.
   description: 
   character: {fileID: 1957078591}
   portrait: {fileID: 21300000, guid: 2aec6c199974675408eaf7d9dcf59447, type: 3}
@@ -4534,7 +4555,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: We've tried to make it better, but it hasn't worked
+  storyText: We've tried to make it better, but it hasn't worked.
   description: 
   character: {fileID: 235874452}
   portrait: {fileID: 21300000, guid: 5ea18242754412242b07e2181e2a5b03, type: 3}
@@ -4561,9 +4582,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 181.9796
+    x: 182.9796
     y: -110.63972
-    width: 128
+    width: 125.824165
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4842,8 +4863,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 169.12193
-    y: 200.11559
-    width: 152
+    y: 199.11559
+    width: 151.09889
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4898,7 +4919,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 461.9123
     y: 220.7082
-    width: 208
+    width: 204.94504
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4952,7 +4973,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 124
   indentLevel: 0
-  storyText: Bye, I will see you in a few days
+  storyText: It's okay, honey, I will see you in a few days.
   description: 
   character: {fileID: 235874452}
   portrait: {fileID: 21300000, guid: 5ea18242754412242b07e2181e2a5b03, type: 3}
@@ -5006,7 +5027,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 122
   indentLevel: 0
-  storyText: Fathership has another Ship with him. They sail away together
+  storyText: Hug the mothership and wouldn't let it go.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5033,9 +5054,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 121
   indentLevel: 0
-  storyText: Mothership drops off childship with Fathership
+  storyText: Kid, No matter what happened, we are your parents and we will always
+    support you and love you.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1957078591}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5078,7 +5100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 112
   indentLevel: 0
-  storyText: We both love you very much
+  storyText: .
   description: 
   character: {fileID: 235874452}
   portrait: {fileID: 21300000, guid: 5ea18242754412242b07e2181e2a5b03, type: 3}
@@ -5106,7 +5128,7 @@ MonoBehaviour:
   itemId: 111
   indentLevel: 0
   storyText: You are not the problem. We have grown apart. We want to provide a good
-    home for you but need to do it separately
+    home for you but need to do it separately.
   description: 
   character: {fileID: 1957078591}
   portrait: {fileID: 21300000, guid: 2aec6c199974675408eaf7d9dcf59447, type: 3}
@@ -5187,8 +5209,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 459.24454
-    y: 160.1156
-    width: 136
+    y: 159.0167
+    width: 134.61539
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5200,10 +5222,13 @@ MonoBehaviour:
   - {fileID: 544702797}
   - {fileID: 544702754}
   - {fileID: 544702796}
-  - {fileID: 544702753}
+  - {fileID: 544702835}
   - {fileID: 544702795}
+  - {fileID: 544702832}
+  - {fileID: 544702834}
   - {fileID: 544702752}
   - {fileID: 544702820}
+  - {fileID: 544702833}
   - {fileID: 544702751}
   suppressAllAutoSelections: 0
 --- !u!114 &544702751
@@ -5245,33 +5270,6 @@ MonoBehaviour:
   value:
     floatRef: {fileID: 0}
     floatVal: 10
---- !u!114 &544702753
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 544702640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 104
-  indentLevel: 0
-  storyText: You bring a lot of stress to our lives
-  description: 
-  character: {fileID: 1957078591}
-  portrait: {fileID: 21300000, guid: 2aec6c199974675408eaf7d9dcf59447, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &544702754
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5286,7 +5284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 105
   indentLevel: 0
-  storyText: It is your fault. If we didn't have you we would be happier
+  storyText: It is all your fault. We would be happier if we didn't have you.
   description: 
   character: {fileID: 235874452}
   portrait: {fileID: 21300000, guid: 5ea18242754412242b07e2181e2a5b03, type: 3}
@@ -5472,8 +5470,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 126
   indentLevel: 0
-  storyText: The Goal of the game is to bring down the stress meter to a manageable
-    level
+  storyText: The goal of the game is to bring down the stress meter to a manageable
+    llevel.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5502,7 +5500,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -98.170105
     y: -51.760834
-    width: 106
+    width: 103.846146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5815,7 +5813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 153
   indentLevel: 0
-  sayDialog: {fileID: 1983483332}
+  sayDialog: {fileID: 519759797}
 --- !u!114 &544702791
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6256,7 +6254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 185
   indentLevel: 0
-  storyText: Start Over
+  storyText: The stress meter is out of control.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6283,7 +6281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 184
   indentLevel: 0
-  storyText: Start Over
+  storyText: The stress meter is out of control.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6310,7 +6308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 183
   indentLevel: 0
-  storyText: Start Over
+  storyText: The stress meter is out of control.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6364,7 +6362,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 181
   indentLevel: 0
-  storyText: Start Over
+  storyText: The stress meter is out of control.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6395,6 +6393,324 @@ MonoBehaviour:
   atTime: 0
   loop: 1
   fadeDuration: 1
+--- !u!114 &544702826
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544702640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 193
+  indentLevel: 0
+  storyText: Honey, if you feel unhappy or uncomfortable in anytime, pleasetell mom
+    and dad. We will talk to you or we can bring you to the doctor who can help you
+    to deal with those hard feeling.
+  description: 
+  character: {fileID: 235874452}
+  portrait: {fileID: 21300000, guid: 5ea18242754412242b07e2181e2a5b03, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &544702827
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544702640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 188
+  indentLevel: 0
+  sayDialog: {fileID: 1983483332}
+--- !u!114 &544702828
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544702640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 192
+  indentLevel: 0
+  storyText: And let me know whenever you need me, I will be there for you. Love
+    you.
+  description: 
+  character: {fileID: 235874452}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &544702829
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544702640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 191
+  indentLevel: 0
+  storyText: Honey, It's time to say goodbye, I will come back to visit you.
+  description: 
+  character: {fileID: 235874452}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &544702830
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544702640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 190
+  indentLevel: 0
+  sayDialog: {fileID: 1725070065}
+--- !u!114 &544702831
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544702640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 189
+  indentLevel: 0
+  storyText: Mothership drops off childship with Fathership
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &544702832
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544702640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 196
+  indentLevel: 0
+  storyText: Childship start to yell and cry.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &544702833
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544702640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 194
+  indentLevel: 0
+  storyText: You have to Start Over.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &544702834
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544702640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 195
+  indentLevel: 0
+  sayDialog: {fileID: 1983483332}
+--- !u!114 &544702835
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544702640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 197
+  indentLevel: 0
+  storyText: You bring a lot of stress to our lives.
+  description: 
+  character: {fileID: 1957078591}
+  portrait: {fileID: 21300000, guid: 2aec6c199974675408eaf7d9dcf59447, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &544702836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544702640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 200
+  indentLevel: 0
+  storyText: Start Over
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &544702837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544702640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 199
+  indentLevel: 0
+  storyText: Start Over
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &544702838
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544702640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 198
+  indentLevel: 0
+  storyText: You have to Start Over.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &565152533
 GameObject:
   m_ObjectHideFlags: 0
